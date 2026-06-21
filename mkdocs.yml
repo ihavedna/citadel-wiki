@@ -7,8 +7,10 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
-  # Self-contained: use the bundled manuscript fonts in wizard.css, no Google Fonts.
-  font: false
+  # Web fonts only — EB Garamond from Google Fonts.
+  font:
+    text: EB Garamond
+    code: Roboto Mono
   features:
     - navigation.instant
     - navigation.top

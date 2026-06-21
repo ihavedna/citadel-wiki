@@ -1,16 +1,8 @@
 /* ══════════════════════════════════════════════════════════════
    Citadel Wiki — "wizard" parchment/ink/gold theme for MkDocs Material
-   Adapted from ihavedna.github.io/projects/wizard-style/
-   (Holystain intentionally omitted; ArcaneFable used for headings.)
+   Palette adapted from ihavedna.github.io/projects/wizard-style/.
+   Typography: EB Garamond (web font, loaded via the Material font config).
    ══════════════════════════════════════════════════════════════ */
-
-/* ── Fonts ────────────────────────────────────────────────────── */
-@font-face { font-family: "Kingfall";      src: url("fonts/kingfall-blessed.otf") format("opentype"); font-display: swap; }
-@font-face { font-family: "InkwellScribe"; src: url("fonts/inkwell-scribe.otf")   format("opentype"); font-display: swap; }
-@font-face { font-family: "ArcaneFable";   src: url("fonts/arcane-fable.otf")     format("opentype"); font-display: swap; }
-@font-face { font-family: "TexturaLibera"; src: url("fonts/textura-libera.otf")   format("opentype"); font-display: swap; }
-@font-face { font-family: "MysticOrder";   src: url("fonts/mystic-order.ttf")     format("truetype"); font-display: swap; }
-@font-face { font-family: "Scriptoria";    src: url("fonts/scriptoria.ttf")       format("truetype"); font-display: swap; }
 
 /* ── Design tokens ────────────────────────────────────────────── */
 :root {
@@ -42,11 +34,11 @@
   --page-bg-hl1: #4A2C10;
   --page-bg-hl2: #1C0E06;
 
-  /* Fonts */
-  --font-display: "Kingfall", serif;
-  --font-heading: "ArcaneFable", serif;
-  --font-body:    "InkwellScribe", "Scriptoria", Georgia, serif;
-  --font-rune:    "MysticOrder", serif;
+  /* Fonts — EB Garamond throughout; display/heading differ by weight & style */
+  --font-display: "EB Garamond", Garamond, Georgia, serif;
+  --font-heading: "EB Garamond", Garamond, Georgia, serif;
+  --font-body:    "EB Garamond", Garamond, Georgia, serif;
+  --font-rune:    "EB Garamond", Garamond, Georgia, serif;
 
   /* ── Map onto Material's theme variables ── */
   --md-primary-fg-color:        var(--leather);
@@ -82,7 +74,7 @@ body {
 
 .md-typeset {
   font-family: var(--font-body);
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   color: var(--ink);
 }
@@ -131,8 +123,10 @@ body {
 }
 .md-header__title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
-  letter-spacing: 0.02em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.06em;
 }
 .md-tabs {
   background: var(--wood-dark);
@@ -143,15 +137,18 @@ body {
 /* ── Headings ─────────────────────────────────────────────────── */
 .md-typeset h1 {
   font-family: var(--font-display);
-  font-weight: 400;
+  font-weight: 600;
+  font-variant: small-caps;
   color: var(--vermillion);
-  letter-spacing: 0.01em;
+  letter-spacing: 0.03em;
   margin-bottom: 0.6em;
   text-shadow: 0 1px 0 rgba(255,245,210,0.4);
 }
 .md-typeset h2 {
   font-family: var(--font-heading);
-  font-weight: 400;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
   color: var(--gold);
   border-bottom: 2px solid var(--rule-gold);
   padding-bottom: 0.2em;
@@ -160,7 +157,7 @@ body {
 .md-typeset h3,
 .md-typeset h4 {
   font-family: var(--font-heading);
-  font-weight: 400;
+  font-weight: 600;
   color: var(--ink-faded);
 }
 
@@ -216,7 +213,9 @@ body {
   background: linear-gradient(180deg, var(--leather), var(--wood-dark));
   color: var(--gold-light);
   font-family: var(--font-heading);
-  font-weight: 400;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
 }
 .md-typeset table:not([class]) tr:hover {
   background: rgba(180,130,40,0.10);
@@ -233,7 +232,9 @@ body {
 .md-typeset .admonition-title,
 .md-typeset summary {
   font-family: var(--font-heading);
-  font-weight: 400;
+  font-weight: 600;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
   background: rgba(180,130,40,0.14);
 }
 
