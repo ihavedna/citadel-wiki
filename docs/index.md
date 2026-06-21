@@ -6,10 +6,10 @@
 ## Contents
 
 - [About the Library](about.md)
-- [Original Texts & Primary Sources](original-texts/)
+- [Original Texts & Primary Sources](original-texts/index.md)
 - [Books & Publications](books-publications.md)
 - [Journals & Personal Works](journals-personal-works.md)
 - [Additional References & Documents](additional-references.md)
 - [Tags & Labels](tags-labels.md)
-- [OOG: Templates](templates/)
+- [OOG: Templates](oog-templates/index.md)
 

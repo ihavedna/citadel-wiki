@@ -68,7 +68,7 @@ nav:
   - Additional References & Documents: additional-references.md
   - Tags & Labels: tags-labels.md
   - "OOG: Templates":
-      - templates/index.md
-      - TEMPLATE for Original Texts & Primary Sources: templates/template-original-texts.md
-      - TEMPLATE for Books & Publications: templates/template-books-publications.md
-      - TEMPLATE for Journals & Personal Works: templates/template-journals-personal-works.md
+      - oog-templates/index.md
+      - TEMPLATE for Original Texts & Primary Sources: oog-templates/template-original-texts.md
+      - TEMPLATE for Books & Publications: oog-templates/template-books-publications.md
+      - TEMPLATE for Journals & Personal Works: oog-templates/template-journals-personal-works.md
