@@ -49,30 +49,26 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - About: about.md
-  - The Kallarai Library:
-      - kallarai-library/index.md
-      - About the Library: kallarai-library/about.md
-      - Original Texts & Primary Sources:
-          - kallarai-library/original-texts/index.md
-          - Current Events: kallarai-library/original-texts/current-events.md
-          - Historical & Ancient Texts: kallarai-library/original-texts/historical-ancient-texts.md
-          - Partial & Ciphered Texts: kallarai-library/original-texts/partial-ciphered-texts.md
-          - Artifacts & Discoveries: kallarai-library/original-texts/artifacts-discoveries.md
-          - "The Vigil Expedition: Notes and Observations": kallarai-library/original-texts/vigil-expedition.md
-          - Ademeni's Experiment Notes: kallarai-library/original-texts/ademeni-experiment-notes.md
-          - "Ritual: Rite of Gathered Malice": kallarai-library/original-texts/rite-of-gathered-malice.md
-          - Journals & Excerpts from Philemon the Necromancer: kallarai-library/original-texts/philemon-journals.md
-          - Vampiric Rite to Kahsithiel: kallarai-library/original-texts/vampiric-rite-kahsithiel.md
-          - "495: Journal Entries from the Swamps beyond Vonor": kallarai-library/original-texts/journal-entries-swamps-vonor.md
-      - Books & Publications: kallarai-library/books-publications.md
-      - Journals & Personal Works: kallarai-library/journals-personal-works.md
-      - Additional References & Documents: kallarai-library/additional-references.md
-      - Tags & Labels: kallarai-library/tags-labels.md
-      - "OOG: Templates":
-          - kallarai-library/templates/index.md
-          - TEMPLATE for Original Texts & Primary Sources: kallarai-library/templates/template-original-texts.md
-          - TEMPLATE for Books & Publications: kallarai-library/templates/template-books-publications.md
-          - TEMPLATE for Journals & Personal Works: kallarai-library/templates/template-journals-personal-works.md
+  - The Kallarai Library: index.md
+  - About the Library: about.md
+  - Original Texts & Primary Sources:
+      - original-texts/index.md
+      - Current Events: original-texts/current-events.md
+      - Historical & Ancient Texts: original-texts/historical-ancient-texts.md
+      - Partial & Ciphered Texts: original-texts/partial-ciphered-texts.md
+      - Artifacts & Discoveries: original-texts/artifacts-discoveries.md
+      - "The Vigil Expedition: Notes and Observations": original-texts/vigil-expedition.md
+      - Ademeni's Experiment Notes: original-texts/ademeni-experiment-notes.md
+      - "Ritual: Rite of Gathered Malice": original-texts/rite-of-gathered-malice.md
+      - Journals & Excerpts from Philemon the Necromancer: original-texts/philemon-journals.md
+      - Vampiric Rite to Kahsithiel: original-texts/vampiric-rite-kahsithiel.md
+      - "495: Journal Entries from the Swamps beyond Vonor": original-texts/journal-entries-swamps-vonor.md
+  - Books & Publications: books-publications.md
+  - Journals & Personal Works: journals-personal-works.md
+  - Additional References & Documents: additional-references.md
+  - Tags & Labels: tags-labels.md
+  - "OOG: Templates":
+      - templates/index.md
+      - TEMPLATE for Original Texts & Primary Sources: templates/template-original-texts.md
+      - TEMPLATE for Books & Publications: templates/template-books-publications.md
+      - TEMPLATE for Journals & Personal Works: templates/template-journals-personal-works.md

@@ -1,11 +1,15 @@
-# Citadel Wiki
+# The Kallarai Library
 
-Welcome to the **Citadel Wiki** — a knowledge base built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published with GitHub Pages.
+!!! note "Reproduced structure"
+    This page mirrors the *Kallarai Library* information architecture from the Citadel Town KB. Content to be added.
 
-## What's here
+## Contents
 
-- [Getting Started](getting-started.md) — how to edit and add pages
-- [About](about.md) — about this wiki
+- [About the Library](about.md)
+- [Original Texts & Primary Sources](original-texts/)
+- [Books & Publications](books-publications.md)
+- [Journals & Personal Works](journals-personal-works.md)
+- [Additional References & Documents](additional-references.md)
+- [Tags & Labels](tags-labels.md)
+- [OOG: Templates](templates/)
 
-!!! tip "Editing this wiki"
-    Every page has a pencil icon in the top right that takes you straight to the source Markdown file on GitHub. Edit it there, or edit files under `docs/` and push to `main` — the site rebuilds automatically.
