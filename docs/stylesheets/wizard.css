@@ -195,6 +195,26 @@ body {
   text-shadow: none;
 }
 
+/* ── Embedded documents (Google Docs / Drive / PDFs) ──────────── */
+.md-typeset .embed {
+  width: 100%;
+  margin: 1.2em 0;
+  border: 1px solid var(--rule-gold);
+  border-radius: var(--radius-md);
+  box-shadow: 0 6px 18px rgba(40,20,5,0.20);
+  overflow: hidden;
+  background: var(--vellum);
+}
+.md-typeset .embed iframe {
+  display: block;
+  width: 100%;
+  height: 780px;            /* good default for a portrait Google Doc */
+  border: 0;
+}
+/* Wide variant for Slides / Sheets / video (16:9) */
+.md-typeset .embed--wide { position: relative; aspect-ratio: 16 / 9; }
+.md-typeset .embed--wide iframe { position: absolute; inset: 0; height: 100%; }
+
 /* ── Links ────────────────────────────────────────────────────── */
 .md-typeset a {
   color: var(--azurite);
