@@ -179,7 +179,7 @@ body {
 /* ── Embedded documents (Google Docs / Drive / PDFs) ──────────── */
 .md-typeset .embed {
   width: 100%;
-  margin: 1.2em 0;
+  margin: 1.2em 0 0.25em;   /* tight gap to the link below */
   border: 1px solid var(--rule-gold);
   border-radius: var(--radius-md);
   box-shadow: 0 6px 18px rgba(40,20,5,0.20);
@@ -195,6 +195,13 @@ body {
 /* Wide variant for Slides / Sheets / video (16:9) */
 .md-typeset .embed--wide { position: relative; aspect-ratio: 16 / 9; }
 .md-typeset .embed--wide iframe { position: absolute; inset: 0; height: 100%; }
+
+/* The "Open in Google Docs" link directly under an embed */
+.md-typeset .embed + p { margin-top: 0.15em; }
+.md-typeset .embed + p a {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
 
 /* ── Links ────────────────────────────────────────────────────── */
 .md-typeset a {
@@ -297,6 +304,21 @@ body {
   color: var(--gold-light) !important;
 }
 .md-sidebar .md-nav__item--active > .md-nav__link { font-weight: 600; }
+
+/* Sidebar "Edit navigation" link → GitHub mkdocs.yml (the IA source) */
+.md-sidebar .md-nav__link[href*="/edit/main/mkdocs.yml"] {
+  margin-top: 0.7em;
+  padding-top: 0.55em;
+  border-top: 1px solid var(--rule-gold);
+  color: var(--gold-light) !important;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+}
+.md-sidebar .md-nav__link[href*="/edit/main/mkdocs.yml"]::before {
+  content: "✎";
+  margin-right: 0.4em;
+  font-style: normal;
+}
 
 /* Mobile drawer only: needs the wood background so the light text reads
    (the docked desktop sidebars stay fully transparent). */
