@@ -241,10 +241,19 @@ body {
 /* ── Sidebars — part of the dark-wood frame ───────────────────── */
 .md-nav { font-family: var(--font-body); }
 
-/* Remove Material's white title bars (white bg + white box-shadow glow) */
+/* Transparent sidebars — only the wood frame shows through, no panels/bars */
+.md-sidebar,
+.md-sidebar__scrollwrap,
+.md-sidebar .md-nav,
 .md-sidebar .md-nav__title {
   background-color: transparent !important;
   box-shadow: none !important;
+}
+
+/* Larger sidebar type */
+.md-sidebar .md-nav { font-size: 0.78rem; }
+.md-sidebar .md-nav__title {
+  font-size: 0.9rem;
   color: var(--gold-light);
   font-family: var(--font-heading);
   font-variant: small-caps;
@@ -265,12 +274,15 @@ body {
 }
 .md-sidebar .md-nav__item--active > .md-nav__link { font-weight: 600; }
 
-/* Mobile drawer: keep it on the wood so the light text stays readable */
-.md-nav--primary,
-.md-nav--primary .md-nav__title {
-  background-color: var(--wood-dark);
+/* Mobile drawer only: needs the wood background so the light text reads
+   (the docked desktop sidebars stay fully transparent). */
+@media screen and (max-width: 76.1875em) {
+  .md-sidebar--primary.md-sidebar .md-nav--primary,
+  .md-sidebar--primary.md-sidebar .md-nav--primary .md-nav__title {
+    background-color: var(--wood-dark) !important;
+  }
+  .md-sidebar--primary.md-sidebar .md-nav--primary .md-nav__title { color: var(--gold-light); }
 }
-.md-nav--primary .md-nav__title { color: var(--gold-light); }
 
 /* ── Search ───────────────────────────────────────────────────── */
 .md-search__form {
