@@ -238,18 +238,39 @@ body {
   background: rgba(180,130,40,0.14);
 }
 
-/* ── Sidebars / navigation ────────────────────────────────────── */
-.md-nav {
-  font-family: var(--font-body);
-  color: var(--ink-faded);
+/* ── Sidebars — part of the dark-wood frame ───────────────────── */
+.md-nav { font-family: var(--font-body); }
+
+/* Remove Material's white title bars (white bg + white box-shadow glow) */
+.md-sidebar .md-nav__title {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: var(--gold-light);
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
 }
-.md-nav__title { color: var(--gold); font-family: var(--font-heading); }
-.md-nav__link--active,
-.md-nav__link:focus,
-.md-nav__link:hover {
-  color: var(--vermillion);
+
+/* Light, legible text on the wood (was dark ink — failed contrast) */
+.md-sidebar,
+.md-sidebar .md-nav,
+.md-sidebar .md-nav__link {
+  color: var(--parchment);
 }
-.md-sidebar__scrollwrap { color: var(--ink-faded); }
+.md-sidebar .md-nav__link:hover,
+.md-sidebar .md-nav__link:focus,
+.md-sidebar .md-nav__link--active,
+.md-sidebar .md-nav__item--active > .md-nav__link {
+  color: var(--gold-light) !important;
+}
+.md-sidebar .md-nav__item--active > .md-nav__link { font-weight: 600; }
+
+/* Mobile drawer: keep it on the wood so the light text stays readable */
+.md-nav--primary,
+.md-nav--primary .md-nav__title {
+  background-color: var(--wood-dark);
+}
+.md-nav--primary .md-nav__title { color: var(--gold-light); }
 
 /* ── Search ───────────────────────────────────────────────────── */
 .md-search__form {
