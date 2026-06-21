@@ -166,15 +166,13 @@ body {
 }
 .md-typeset li > p { margin: 0.2em 0; }
 
-/* Decorative rule under the first H1 */
+/* Divider line under the first H1 */
 .md-typeset h1::after {
-  content: "❦";
+  content: "";
   display: block;
-  font-family: var(--font-rune);
-  color: var(--gold-bright);
-  font-size: 0.7em;
-  text-align: center;
-  margin-top: 0.25em;
+  height: 0;
+  border-bottom: 2px solid var(--rule-gold);
+  margin-top: 0.4em;
   text-shadow: none;
 }
 
