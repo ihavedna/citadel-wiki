@@ -172,8 +172,9 @@ body {
   margin-bottom: 0.5em;
 }
 .md-typeset li {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.05em;
 }
+.md-typeset li + li { margin-top: 0.05em; }
 .md-typeset li > ul,
 .md-typeset li > ol {
   margin-top: 0.25em;
