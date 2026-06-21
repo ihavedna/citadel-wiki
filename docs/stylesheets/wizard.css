@@ -65,11 +65,9 @@
   --md-footer-bg-color--dark:   var(--page-bg-hl2);
 }
 
-/* ── Page surround — dark wood with a warm spotlight ──────────── */
+/* ── Page surround — solid dark wood ──────────────────────────── */
 body {
-  background:
-    radial-gradient(120% 90% at 50% 0%, var(--page-bg-hl1) 0%, var(--page-bg) 45%, var(--page-bg-hl2) 100%)
-    fixed;
+  background: var(--page-bg) fixed;
 }
 
 .md-typeset {
@@ -85,8 +83,7 @@ body {
 }
 
 .md-content {
-  background:
-    linear-gradient(180deg, var(--vellum) 0%, var(--parchment) 18%, var(--parchment) 100%);
+  background: var(--parchment);
   border: 1px solid var(--rule-gold);
   border-radius: var(--md-typeset-table-border-radius, 6px);
   box-shadow:
@@ -99,25 +96,11 @@ body {
 }
 .md-content__inner::before { height: 0.4rem; }
 
-/* Subtle parchment grain */
-.md-content::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  border-radius: inherit;
-  background-image:
-    radial-gradient(rgba(120,80,20,0.05) 1px, transparent 1px);
-  background-size: 4px 4px;
-  mix-blend-mode: multiply;
-  opacity: 0.6;
-}
 .md-content { position: relative; }
 
 /* ── Header — leather bar, gilded title ───────────────────────── */
 .md-header {
-  background:
-    linear-gradient(180deg, var(--leather) 0%, var(--wood-dark) 100%);
+  background: var(--leather);
   color: var(--gold-light);
   box-shadow: 0 2px 0 var(--rule-gold), 0 4px 14px rgba(0,0,0,0.5);
 }
@@ -233,7 +216,7 @@ body {
   border-radius: 3px;
 }
 .md-typeset pre > code {
-  background: linear-gradient(180deg, #1A0E06 0%, #0E0804 100%);
+  background: #140A04;
   color: var(--md-code-fg-color);
   border: 1px solid var(--rule-gold);
   box-shadow: inset 0 2px 8px rgba(0,0,0,0.5);
@@ -252,7 +235,7 @@ body {
   background: var(--vellum);
 }
 .md-typeset table:not([class]) th {
-  background: linear-gradient(180deg, var(--leather), var(--wood-dark));
+  background: var(--leather);
   color: var(--gold-light);
   font-family: var(--font-heading);
   font-weight: 600;

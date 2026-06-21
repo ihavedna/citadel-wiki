@@ -1,11 +1,6 @@
 # OOG: Templates
 
-!!! note "Reproduced structure"
-    This page mirrors the *Kallarai Library* information architecture from the Citadel Town KB. Content to be added.
-
-## Contents
-
-- [TEMPLATE for Original Texts & Primary Sources](template-original-texts.md)
-- [TEMPLATE for Books & Publications](template-books-publications.md)
-- [TEMPLATE for Journals & Personal Works](template-journals-personal-works.md)
-
+<div class="embed">
+  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
+          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+</div>
