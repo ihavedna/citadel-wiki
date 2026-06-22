@@ -290,6 +290,42 @@ body {
   border-bottom: 2px solid var(--rule-gold);
 }
 
+/* ── Recent Changes pager ─────────────────────────────────────── */
+.md-typeset .rc-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.2em 0 0.4em;
+}
+.md-typeset .rc-pager button {
+  background: var(--vellum);
+  color: var(--gold);
+  border: 1px solid var(--rule-gold);
+  border-radius: 999px;
+  padding: 0.15em 0.9em;
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 0.74rem;
+  cursor: pointer;
+}
+.md-typeset .rc-pager button:hover:not(:disabled) {
+  background: var(--parchment-dark);
+  color: var(--leather);
+}
+.md-typeset .rc-pager button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.md-typeset .rc-pager__label {
+  color: var(--ink-dim);
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 0.74rem;
+}
+
 /* ── Tags (chips at page top + on the Tags index) ─────────────── */
 .md-typeset .md-tags {
   margin-top: 1.4em;

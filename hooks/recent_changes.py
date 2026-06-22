@@ -8,7 +8,6 @@ import os
 import re
 import subprocess
 
-LIMIT = 12
 MARKER = "<!-- recent-changes -->"
 EXCLUDE = {"recent-changes.md"}  # don't list the page that hosts the list
 
@@ -79,9 +78,7 @@ def _collect():
             continue
         seen.add(rel)
         items.append((rel, date))
-        if len(items) >= LIMIT:
-            break
-    return items
+    return items  # all changes, newest first; the page paginates client-side
 
 
 def _render():
