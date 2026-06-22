@@ -13,11 +13,36 @@ page all update on the next build.
 """
 import os
 import re
+from urllib.parse import quote
 
 SITE_MARKER = "<!-- site-tree -->"
 SUB_MARKER = "<!-- subtree -->"
 _NAV = None
 _h1_cache = {}
+
+# Pre-filled content for the "+ New page" button (the standard embed stub).
+_NEW_PAGE_TEMPLATE = (
+    "---\ntags:\n  - Untagged\n---\n# New Entry\n\n"
+    '<div class="embed">\n'
+    '  <iframe src="https://docs.google.com/document/d/'
+    '1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"\n'
+    '          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>\n'
+    "</div>\n\n"
+    "[Open in Google Docs ↗](https://docs.google.com/document/d/"
+    "1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}\n"
+)
+_REPO_NEW = "https://github.com/ihavedna/citadel-wiki/new/main/docs"
+
+
+def _new_page_button(page):
+    folder = os.path.dirname(page.file.src_uri)
+    url = (f"{_REPO_NEW}/{folder}/?filename=new-entry.md"
+           f"&value={quote(_NEW_PAGE_TEMPLATE, safe='')}")
+    return (
+        f'<a class="new-entry-btn" href="{url}" target="_blank" rel="noopener" '
+        f'title="Create a new page in this section, pre-filled with the embed template">'
+        f"➕ New page in this section</a>\n\n"
+    )
 
 
 def _h1(file):
@@ -115,6 +140,7 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
         body = "\n".join(_render(_NAV.items, "", 0)) + "\n"
         markdown = markdown.replace(SITE_MARKER, body)
     if SUB_MARKER in markdown:
+        button = _new_page_button(page)
         section = _section_for(_NAV.items, page)
         if section is not None:
             base = os.path.dirname(page.file.src_uri)
@@ -123,5 +149,5 @@ def on_page_markdown(markdown, page, config, files, **kwargs):
             body = "\n".join(_render(kids, base, 0)) + "\n"
         else:
             body = "_No sub-pages._\n"
-        markdown = markdown.replace(SUB_MARKER, body)
+        markdown = markdown.replace(SUB_MARKER, button + body)
     return markdown

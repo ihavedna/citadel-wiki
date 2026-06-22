@@ -260,6 +260,27 @@ body {
    "overtakes" to Drive (Enter opens Drive search in a new tab). */
 .md-search.drive-mode .md-search-result { display: none; }
 
+/* ── "New page in this section" button (top of landing pages) ─── */
+.md-typeset a.new-entry-btn {
+  display: inline-block;
+  margin: 0 0 1em;
+  padding: 0.28em 0.95em;
+  background: var(--leather);
+  color: var(--gold-light);
+  border: 1px solid var(--rule-gold);
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.md-typeset a.new-entry-btn:hover,
+.md-typeset a.new-entry-btn:focus {
+  background: var(--wood-mid);
+  color: #fff;
+}
+
 /* ── Tags (chips at page top + on the Tags index) ─────────────── */
 .md-typeset .md-tags {
   margin-top: 1.4em;

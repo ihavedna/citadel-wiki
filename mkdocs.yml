@@ -69,6 +69,7 @@ plugins:
 hooks:
   - hooks/recent_changes.py
   - hooks/site_tree.py
+  - hooks/auto_nav.py
 
 nav:
   - about-the-library.md
