@@ -1,7 +1,11 @@
 ---
 tags:
+  - Found Text
   - Ademeni
-  - 
+  - Maelstrom Spire Sanctum
+  - Bonewash Expedition
+  - Special Collections
+  - Needs Transcription
 ---
 # Excerpt from Ademeni's Song
 
