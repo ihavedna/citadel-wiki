@@ -2,11 +2,13 @@
 tags:
   - Untagged
 ---
+
 # Artifacts
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [The Citadoll](the-citadoll.md)
+- [Artifact #2](artifact-2.md)
+- [Artifact #3](artifact-3.md)
+- [Artifact #4](artifact-4.md)
+- [Artifact #5](artifact-5.md)

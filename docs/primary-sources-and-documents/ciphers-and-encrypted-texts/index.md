@@ -2,11 +2,12 @@
 tags:
   - Untagged
 ---
+
 # Ciphers & Encrypted Texts
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Ciphers](ciphers.md)
+- [Encrypted Texts](encrypted-texts/index.md)
+    - [Encrypted Text #1](encrypted-texts/encrypted-text-1.md)
+    - [Encrypted Text #2](encrypted-texts/encrypted-text-2.md)

@@ -2,11 +2,14 @@
 tags:
   - Untagged
 ---
+
 # Partial Texts
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Repair Project #1](repair-project-1.md)
+- [Repair Project #2](repair-project-2.md)
+- [Repair Project #3](repair-project-3.md)
+- [Religious Texts](religious-texts/index.md)
+    - [Book of the Righteous](religious-texts/book-of-the-righteous.md)
+    - [Words of the Sages](religious-texts/words-of-the-sages.md)

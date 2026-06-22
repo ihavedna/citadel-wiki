@@ -2,11 +2,18 @@
 tags:
   - Untagged
 ---
+
 # Additional References & Documents
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Bestiary](bestiary/index.md)
+    - [Entry #1](bestiary/entry-1.md)
+    - [Entry #2](bestiary/entry-2.md)
+    - [Entry #3](bestiary/entry-3.md)
+    - [Entry #4](bestiary/entry-4.md)
+    - [Entry #5](bestiary/entry-5.md)
+- [Astrology](astrology/index.md)
+    - [Introduction](astrology/introduction.md)
+    - [Completed Astrological Charts](astrology/completed-astrological-charts.md)
+- [Reference #3](reference-3.md)

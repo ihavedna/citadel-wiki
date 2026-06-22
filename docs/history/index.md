@@ -2,11 +2,13 @@
 tags:
   - Untagged
 ---
+
 # History
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [History #1](history-1.md)
+- [History #2](history-2.md)
+- [History #3](history-3.md)
+- [History #4](history-4.md)
+- [History #5](history-5.md)

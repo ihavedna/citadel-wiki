@@ -2,11 +2,13 @@
 tags:
   - Untagged
 ---
+
 # Journals
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Journals #1](journals-1.md)
+- [Journals #2](journals-2.md)
+- [Journals #3](journals-3.md)
+- [Journals #4](journals-4.md)
+- [Journals #5](journals-5.md)

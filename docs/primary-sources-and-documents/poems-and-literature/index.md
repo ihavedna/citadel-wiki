@@ -2,11 +2,14 @@
 tags:
   - Untagged
 ---
+
 # Poems & Literature
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- **Literature**
+    - [Literature #1](literature/literature-1.md)
+    - [Literature #2](literature/literature-2.md)
+- **Poems**
+    - [Poems #1](poems/poems-1.md)
+    - [Poems #2](poems/poems-2.md)

@@ -2,11 +2,13 @@
 tags:
   - Untagged
 ---
+
 # Notes
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Notes #1](notes-1.md)
+- [Notes #2](notes-2.md)
+- [Notes #3](notes-3.md)
+- [Notes #4](notes-4.md)
+- [Notes #5](notes-5.md)

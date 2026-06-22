@@ -2,11 +2,13 @@
 tags:
   - Untagged
 ---
+
 # Publications & Personal Works
 
-<div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
-</div>
+## Contents
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+- [Professor Gildor's Journals](professor-gildors-journals.md)
+- [Work #2](work-2.md)
+- [Work #3](work-3.md)
+- [Work #4](work-4.md)
+- [Work #5](work-5.md)
