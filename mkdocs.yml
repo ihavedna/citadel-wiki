@@ -247,18 +247,18 @@ nav:
               - primary-sources-and-documents/poems-and-literature/poems/index.md
               - "Poems #1": primary-sources-and-documents/poems-and-literature/poems/poems-1.md
               - "Poems #2": primary-sources-and-documents/poems-and-literature/poems/poems-2.md
-  - "Religous Texts":
-      - religous-texts/index.md
-      - "Prophecies": religous-texts/prophecies.md
+  - "Religious Texts":
+      - religious-texts/index.md
+      - "Prophecies": religious-texts/prophecies.md
   - "Partial Texts":
       - partial-texts/index.md
       - "Repair Project #1": partial-texts/repair-project-1.md
       - "Repair Project #2": partial-texts/repair-project-2.md
       - "Repair Project #3": partial-texts/repair-project-3.md
-      - "Religous Texts":
-          - partial-texts/religous-texts/index.md
-          - "Book of the Righteous": partial-texts/religous-texts/book-of-the-righteous.md
-          - "Words of the Sages": partial-texts/religous-texts/words-of-the-sages.md
+      - "Religious Texts":
+          - partial-texts/religious-texts/index.md
+          - "Book of the Righteous": partial-texts/religious-texts/book-of-the-righteous.md
+          - "Words of the Sages": partial-texts/religious-texts/words-of-the-sages.md
   - "History":
       - history/index.md
       - "History #1": history/history-1.md
@@ -296,13 +296,13 @@ nav:
       - "Work #5": publications-and-personal-works/work-5.md
   - "Additional References & Documents":
       - additional-references-and-documents/index.md
-      - "Beastiary":
-          - additional-references-and-documents/beastiary/index.md
-          - "Entry #1": additional-references-and-documents/beastiary/entry-1.md
-          - "Entry #2": additional-references-and-documents/beastiary/entry-2.md
-          - "Entry #3": additional-references-and-documents/beastiary/entry-3.md
-          - "Entry #4": additional-references-and-documents/beastiary/entry-4.md
-          - "Entry #5": additional-references-and-documents/beastiary/entry-5.md
+      - "Bestiary":
+          - additional-references-and-documents/bestiary/index.md
+          - "Entry #1": additional-references-and-documents/bestiary/entry-1.md
+          - "Entry #2": additional-references-and-documents/bestiary/entry-2.md
+          - "Entry #3": additional-references-and-documents/bestiary/entry-3.md
+          - "Entry #4": additional-references-and-documents/bestiary/entry-4.md
+          - "Entry #5": additional-references-and-documents/bestiary/entry-5.md
       - "Astrology":
           - additional-references-and-documents/astrology/index.md
           - "Introduction": additional-references-and-documents/astrology/introduction.md
@@ -313,7 +313,7 @@ nav:
       - artifacts/index.md
       - "The Citadoll": artifacts/the-citadoll.md
       - "Artifact #2": artifacts/artifact-2.md
-      - "Artfact #3": artifacts/artfact-3.md
+      - "Artifact #3": artifacts/artifact-3.md
       - "Artifact #4": artifacts/artifact-4.md
       - "Artifact #5": artifacts/artifact-5.md
   - "Templates":

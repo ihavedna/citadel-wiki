@@ -2,7 +2,7 @@
 tags:
   - Untagged
 ---
-# Religous Texts
+# Artifact #3
 
 <div class="embed">
   <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
