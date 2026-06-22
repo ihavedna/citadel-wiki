@@ -1,12 +1,13 @@
 ---
 tags:
-  - Untagged
+  - Ademeni
+  - 
 ---
-# Text #2
+# Excerpt from Ademeni's Song
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1dhsjN4606fIrOyvQCQcypyWIZvv0yxHb1c7k7pH4nPU/preview"
+          loading="lazy" title="Excerpt from Ademeni's Song"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1dhsjN4606fIrOyvQCQcypyWIZvv0yxHb1c7k7pH4nPU/edit){target=_blank}
