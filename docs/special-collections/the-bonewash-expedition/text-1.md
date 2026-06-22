@@ -6,6 +6,7 @@ tags:
   - Maelstrom Spire Sanctum
   - Bonewash Expedition
   - Special Collections
+  - Needs Transcription
 ---
 # Ritual: Rite of Gathering Malice
 
