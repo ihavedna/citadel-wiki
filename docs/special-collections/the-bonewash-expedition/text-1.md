@@ -7,7 +7,7 @@ tags:
   - Bonewash Expedition
   - Special Collections
 ---
-# Text #1
+# Ritual: Rite of Gathering Malice
 
 <div class="embed">
   <iframe src="https://docs.google.com/document/d/1R4n3lECcSBd-2-vS6LmCMCCY9xXhL_vvwjMGvrDcIuY/preview"
