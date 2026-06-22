@@ -263,22 +263,31 @@ body {
 /* ── "New page in this section" button (top of landing pages) ─── */
 .md-typeset a.new-entry-btn {
   display: inline-block;
-  margin: 0 0 1em;
-  padding: 0.28em 0.95em;
-  background: var(--leather);
-  color: var(--gold-light);
+  margin: 0;
+  padding: 0.12em 0.7em;
+  background: var(--vellum);
+  color: var(--gold);
   border: 1px solid var(--rule-gold);
   border-radius: 999px;
   font-family: var(--font-heading);
   font-variant: small-caps;
   letter-spacing: 0.03em;
-  font-size: 0.78rem;
+  font-size: 0.66rem;
   text-decoration: none;
 }
 .md-typeset a.new-entry-btn:hover,
 .md-typeset a.new-entry-btn:focus {
-  background: var(--wood-mid);
-  color: #fff;
+  background: var(--parchment-dark);
+  color: var(--leather);
+}
+/* On landing pages, move the title's divider rule to BELOW the button:
+   drop the H1 underline and draw the rule under the button's paragraph. */
+.md-typeset h1:has(+ p > a.new-entry-btn)::after { content: none; }
+.md-typeset h1:has(+ p > a.new-entry-btn) + p {
+  margin-top: 0.3em;
+  padding-bottom: 0.6em;
+  margin-bottom: 0.6em;
+  border-bottom: 2px solid var(--rule-gold);
 }
 
 /* ── Tags (chips at page top + on the Tags index) ─────────────── */
