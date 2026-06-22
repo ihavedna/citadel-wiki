@@ -264,22 +264,22 @@ body {
 .md-typeset a.new-entry-btn {
   display: inline-block;
   margin: 0;
-  padding: 0.12em 0.7em;
+  padding: 0.14em 0.75em;
   background: var(--vellum);
-  color: var(--gold);
+  color: var(--leather);
   border: 1px solid var(--rule-gold);
   border-radius: 999px;
   font-family: var(--font-heading);
   font-variant: small-caps;
   font-weight: 700;
   letter-spacing: 0.03em;
-  font-size: 0.66rem;
+  font-size: 0.74rem;
   text-decoration: none;
 }
 .md-typeset a.new-entry-btn:hover,
 .md-typeset a.new-entry-btn:focus {
   background: var(--parchment-dark);
-  color: var(--leather);
+  color: var(--wood-dark);
 }
 /* On landing pages, move the title's divider rule to BELOW the button:
    drop the H1 underline and draw the rule under the button's paragraph. */
