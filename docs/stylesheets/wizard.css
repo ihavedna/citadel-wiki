@@ -474,6 +474,13 @@ body {
 
 /* Larger sidebar type */
 .md-sidebar .md-nav { font-size: 0.78rem; }
+
+/* A couple points larger for these top-level nav links */
+.md-sidebar .md-nav__link[href$="about-the-library/"],
+.md-sidebar .md-nav__link[href$="tags-labels/"],
+.md-sidebar .md-nav__link[href$="recent-changes/"] {
+  font-size: 0.9rem;
+}
 .md-sidebar .md-nav__title {
   font-size: 0.9rem;
   color: var(--gold-light);
