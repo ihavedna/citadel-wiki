@@ -354,10 +354,11 @@ body {
 /* Tags & Labels index only: larger pills, smaller + tighter page lists */
 .md-typeset h2[id^="tag:"] .md-tag {
   font-size: 0.95rem;
-  padding: 0.14em 0.85em;
+  padding: 0.08em 0.5em;
+  letter-spacing: 0.01em;
 }
 .md-typeset h2[id^="tag:"] + ul {
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   margin-top: 0.2em;
 }
 .md-typeset h2[id^="tag:"] + ul li {
