@@ -7,6 +7,7 @@ tags:
   - Bonewash Expedition
   - Special Collections
   - Needs Transcription
+  - March 724
 ---
 # Ritual: Rite of Gathering Malice
 
