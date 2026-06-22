@@ -12,8 +12,8 @@ tags:
 # Ademeni's Song for The Holy One, the Sacred Storm
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1dhsjN4606fIrOyvQCQcypyWIZvv0yxHb1c7k7pH4nPU/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1biNr5Plc0dcaYW9jiRvDfWs8HVsCDfrvsKXIl04Nh9E/preview"
+          loading="lazy" title="Ademeni's Song for The Holy One, the Sacred Storm"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1dhsjN4606fIrOyvQCQcypyWIZvv0yxHb1c7k7pH4nPU/edit){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1biNr5Plc0dcaYW9jiRvDfWs8HVsCDfrvsKXIl04Nh9E/edit){target=_blank}
