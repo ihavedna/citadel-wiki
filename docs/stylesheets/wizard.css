@@ -344,11 +344,16 @@ body {
   letter-spacing: 0.04em;
   padding: 0.1em 0.65em;
 }
+/* Page tag chips (the clickable ones at the bottom of pages): slightly
+   larger, and highlight in the link-blue on hover. */
+.md-typeset .md-tags .md-tag {
+  font-size: 0.7rem;
+}
 .md-typeset a.md-tag:hover,
 .md-typeset a.md-tag:focus {
-  background: var(--gold-light);
-  color: var(--ink);
-  border-color: var(--gold-bright);
+  background: var(--azurite);
+  color: #fff;
+  border-color: var(--azurite);
 }
 
 /* Tags & Labels index only: larger pills, smaller + tighter page lists */
