@@ -1,9 +1,8 @@
-site_name: Citadel Wiki
-site_description: A wiki for the Citadel
+site_name: The Kallarai Library
+site_description: The Kallarai Library
+# site_url is internal plumbing (required by navigation.instant); it is not
+# shown to visitors. The repo link / edit URLs have been removed.
 site_url: https://ihavedna.github.io/citadel-wiki/
-repo_url: https://github.com/ihavedna/citadel-wiki
-repo_name: ihavedna/citadel-wiki
-edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -19,7 +18,6 @@ theme:
     - navigation.indexes
     - search.suggest
     - search.highlight
-    - content.action.edit
     - content.code.copy
     - toc.follow
   # Single warm "parchment" scheme — the wizard.css theme paints the rest.
@@ -306,4 +304,3 @@ nav:
       - "Template #2": templates-section/template-2.md
       - "Template #3": templates-section/template-3.md
   - "Tags & Labels": tags-labels.md
-  - Edit navigation: https://github.com/ihavedna/citadel-wiki/edit/main/mkdocs.yml

@@ -1,8 +1,6 @@
-# Citadel Wiki
+# The Kallarai Library
 
-A wiki for the Citadel, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published with GitHub Pages.
-
-**Live site:** https://ihavedna.github.io/citadel-wiki/
+A wiki for the Kallarai Library, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and published with GitHub Pages.
 
 ## Structure
 
