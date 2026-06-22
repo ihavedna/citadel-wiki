@@ -1,6 +1,6 @@
 ---
 tags:
-  - Untagged
+  - General Information
 ---
 # About the Library
 
