@@ -443,6 +443,20 @@ body {
   box-shadow: none !important;
 }
 
+/* Sidebar scrollbars: parchment/vellum, not the red accent */
+.md-sidebar__scrollwrap {
+  scrollbar-color: var(--parchment) transparent;
+}
+.md-sidebar__scrollwrap:hover {
+  scrollbar-color: var(--vellum) transparent;
+}
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: var(--parchment);
+}
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb:hover {
+  background-color: var(--vellum);
+}
+
 /* Sidebar titles ("The Kallarai Library" / "Table of contents") get a solid
    page-brown background so nav/TOC items scroll BEHIND them, not through. */
 .md-sidebar .md-nav__title {
