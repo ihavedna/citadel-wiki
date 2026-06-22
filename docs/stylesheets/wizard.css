@@ -203,53 +203,30 @@ body {
   font-weight: 600;
 }
 
-/* ── Drive search bar (announcement banner on every page) ─────── */
-.md-banner {
-  background: var(--wood-dark);
-  color: var(--gold-light);
-  border-bottom: 1px solid var(--rule-gold);
-}
-.drive-search {
+/* ── "Search the Library Drive" toggle inside the search dropdown ── */
+.md-search__output .drive-toggle {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0.25rem 0;
-  font-family: var(--font-body);
-}
-.drive-search label {
-  color: var(--gold-light);
-  font-family: var(--font-heading);
-  font-variant: small-caps;
-  letter-spacing: 0.04em;
-  font-size: 0.82rem;
-}
-.drive-search input {
-  background: var(--vellum);
-  border: 1px solid var(--rule-gold);
-  border-radius: 999px;
-  padding: 0.12rem 0.7rem;
-  color: var(--ink);
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  min-width: 14rem;
-  max-width: 48vw;
-}
-.drive-search input::placeholder { color: var(--ink-dim); }
-.drive-search button {
-  background: var(--leather);
-  color: var(--gold-light);
-  border: 1px solid var(--rule-gold);
-  border-radius: 999px;
-  padding: 0.12rem 0.85rem;
+  gap: 0.45rem;
+  padding: 0.5rem 0.9rem;
+  background: var(--parchment-dark);
+  border-bottom: 1px solid var(--rule-gold);
+  color: var(--ink-faded);
   font-family: var(--font-heading);
   font-variant: small-caps;
   letter-spacing: 0.03em;
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   cursor: pointer;
 }
-.drive-search button:hover { background: var(--wood-mid); color: #fff; }
+.md-search__output .drive-toggle input { accent-color: var(--leather); cursor: pointer; }
+.md-search__output .drive-toggle em {
+  font-style: italic;
+  font-variant: normal;
+  color: var(--ink-dim);
+}
+/* When the Drive toggle is on, hide the local wiki results — the search
+   "overtakes" to Drive (Enter opens Drive search in a new tab). */
+.md-search.drive-mode .md-search-result { display: none; }
 
 /* ── Tags (chips at page top + on the Tags index) ─────────────── */
 .md-typeset .md-tags {
