@@ -438,10 +438,19 @@ body {
 /* Transparent sidebars — only the wood frame shows through, no panels/bars */
 .md-sidebar,
 .md-sidebar__scrollwrap,
-.md-sidebar .md-nav,
-.md-sidebar .md-nav__title {
+.md-sidebar .md-nav {
   background-color: transparent !important;
   box-shadow: none !important;
+}
+
+/* Sidebar titles ("The Kallarai Library" / "Table of contents") get a solid
+   page-brown background so nav/TOC items scroll BEHIND them, not through. */
+.md-sidebar .md-nav__title {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--page-bg) !important;
+  box-shadow: 0 0.4rem 0.4rem var(--page-bg) !important;
 }
 
 /* Larger sidebar type */
