@@ -7,6 +7,7 @@ site_url: https://ihavedna.github.io/citadel-wiki/
 theme:
   name: material
   custom_dir: overrides
+  favicon: assets/favicon.svg
   # Web fonts only — EB Garamond from Google Fonts.
   font:
     text: EB Garamond
@@ -304,3 +305,4 @@ nav:
       - "Template #2": templates-section/template-2.md
       - "Template #3": templates-section/template-3.md
   - "Tags & Labels": tags-labels.md
+  - "Recent Changes": recent-changes.md

@@ -10,7 +10,7 @@ import subprocess
 
 LIMIT = 12
 MARKER = "<!-- recent-changes -->"
-EXCLUDE = {"about-the-library.md"}  # don't list the page that hosts the list
+EXCLUDE = {"recent-changes.md"}  # don't list the page that hosts the list
 
 _cache = None
 
@@ -90,10 +90,9 @@ def _render():
         return _cache
     items = _collect()
     if not items:
-        _cache = "## Recent Changes\n\n_No change history available yet._\n"
+        _cache = "_No change history available yet._\n"
         return _cache
-    rows = ["## Recent Changes\n",
-            "| Page | Section | Updated |",
+    rows = ["| Page | Section | Updated |",
             "| --- | --- | --- |"]
     for rel, date in items:
         title = _title_for(rel).replace("|", "\\|")

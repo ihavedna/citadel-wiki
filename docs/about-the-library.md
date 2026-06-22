@@ -10,5 +10,3 @@ tags:
 </div>
 
 [Open in Google Docs ↗](https://docs.google.com/document/d/1ex7r7IvmJvLCOOHRjswyO-0B9fLUxzTptwvKaxY0WRM/edit){target=_blank}
-
-<!-- recent-changes -->
