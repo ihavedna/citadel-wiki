@@ -1,12 +1,17 @@
 ---
 tags:
-  - Untagged
+  - Nysoris
+  - Market District
+  - Vigil/Kallarai
+  - Apphia B’Kahsithiel
+  - Hallel B’Xalvoth
+  - November 724
 ---
-# Journals #1
+# Journal, Ciphered Reports & Map by Nysoris
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1WUKMHy-rjpx1s8oGrmy1Nqdq9rzW2Pw4qAeytiBxxto/preview"
+          loading="lazy" title="Journal, Ciphered Reports & Map by Nysoris"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1WUKMHy-rjpx1s8oGrmy1Nqdq9rzW2Pw4qAeytiBxxto/edit){target=_blank}
