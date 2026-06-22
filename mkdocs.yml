@@ -52,27 +52,274 @@ plugins:
   - tags
 
 nav:
-  - The Kallarai Library: index.md
-  - About the Library: about.md
-  - Original Texts & Primary Sources:
-      - original-texts/index.md
-      - Current Events: original-texts/current-events.md
-      - Historical & Ancient Texts: original-texts/historical-ancient-texts.md
-      - Partial & Ciphered Texts: original-texts/partial-ciphered-texts.md
-      - Artifacts & Discoveries: original-texts/artifacts-discoveries.md
-      - "The Vigil Expedition: Notes and Observations": original-texts/vigil-expedition.md
-      - Ademeni's Experiment Notes: original-texts/ademeni-experiment-notes.md
-      - "Ritual: Rite of Gathered Malice": original-texts/rite-of-gathered-malice.md
-      - Journals & Excerpts from Philemon the Necromancer: original-texts/philemon-journals.md
-      - Vampiric Rite to Kahsithiel: original-texts/vampiric-rite-kahsithiel.md
-      - "495: Journal Entries from the Swamps beyond Vonor": original-texts/journal-entries-swamps-vonor.md
-  - Books & Publications: books-publications.md
-  - Journals & Personal Works: journals-personal-works.md
-  - Additional References & Documents: additional-references.md
-  - Tags & Labels: tags-labels.md
-  - "OOG: Templates":
-      - oog-templates/index.md
-      - TEMPLATE for Original Texts & Primary Sources: oog-templates/template-original-texts.md
-      - TEMPLATE for Books & Publications: oog-templates/template-books-publications.md
-      - TEMPLATE for Journals & Personal Works: oog-templates/template-journals-personal-works.md
+  - "The Kallarai Library": index.md
+  - "About the Library": about-the-library.md
+  - "Delve Reports":
+      - delve-reports/index.md
+      - "726":
+          - delve-reports/726/index.md
+          - "February 726":
+              - delve-reports/726/february-726/index.md
+              - "Delve Report #1": delve-reports/726/february-726/delve-report-1.md
+              - "Delve Report #2": delve-reports/726/february-726/delve-report-2.md
+              - "Delve Report #3": delve-reports/726/february-726/delve-report-3.md
+              - "Delve Report #4": delve-reports/726/february-726/delve-report-4.md
+              - "Delve Report #5": delve-reports/726/february-726/delve-report-5.md
+          - "May 726":
+              - delve-reports/726/may-726/index.md
+              - "Delve Report #1": delve-reports/726/may-726/delve-report-1.md
+              - "Delve Report #2": delve-reports/726/may-726/delve-report-2.md
+              - "Delve Report #3": delve-reports/726/may-726/delve-report-3.md
+              - "Delve Report #4": delve-reports/726/may-726/delve-report-4.md
+              - "Delve Report #5": delve-reports/726/may-726/delve-report-5.md
+          - "September 726":
+              - delve-reports/726/september-726/index.md
+              - "Delve Report #1": delve-reports/726/september-726/delve-report-1.md
+              - "Delve Report #2": delve-reports/726/september-726/delve-report-2.md
+              - "Delve Report #3": delve-reports/726/september-726/delve-report-3.md
+              - "Delve Report #4": delve-reports/726/september-726/delve-report-4.md
+              - "Delve Report #5": delve-reports/726/september-726/delve-report-5.md
+          - "November 726":
+              - delve-reports/726/november-726/index.md
+              - "Delve Report #1": delve-reports/726/november-726/delve-report-1.md
+              - "Delve Report #2": delve-reports/726/november-726/delve-report-2.md
+              - "Delve Report #3": delve-reports/726/november-726/delve-report-3.md
+              - "Delve Report #4": delve-reports/726/november-726/delve-report-4.md
+              - "Delve Report #5": delve-reports/726/november-726/delve-report-5.md
+      - "725":
+          - delve-reports/725/index.md
+          - "February 725":
+              - delve-reports/725/february-725/index.md
+              - "Delve Report #1": delve-reports/725/february-725/delve-report-1.md
+              - "Delve Report #2": delve-reports/725/february-725/delve-report-2.md
+              - "Delve Report #3": delve-reports/725/february-725/delve-report-3.md
+              - "Delve Report #4": delve-reports/725/february-725/delve-report-4.md
+              - "Delve Report #5": delve-reports/725/february-725/delve-report-5.md
+          - "May 725":
+              - delve-reports/725/may-725/index.md
+              - "Delve Report #1": delve-reports/725/may-725/delve-report-1.md
+              - "Delve Report #2": delve-reports/725/may-725/delve-report-2.md
+              - "Delve Report #3": delve-reports/725/may-725/delve-report-3.md
+              - "Delve Report #4": delve-reports/725/may-725/delve-report-4.md
+              - "Delve Report #5": delve-reports/725/may-725/delve-report-5.md
+          - "September 725":
+              - delve-reports/725/september-725/index.md
+              - "Delve Report #1": delve-reports/725/september-725/delve-report-1.md
+              - "Delve Report #2": delve-reports/725/september-725/delve-report-2.md
+              - "Delve Report #3": delve-reports/725/september-725/delve-report-3.md
+              - "Delve Report #4": delve-reports/725/september-725/delve-report-4.md
+              - "Delve Report #5": delve-reports/725/september-725/delve-report-5.md
+          - "November 725":
+              - delve-reports/725/november-725/index.md
+              - "Delve Report #1": delve-reports/725/november-725/delve-report-1.md
+              - "Delve Report #2": delve-reports/725/november-725/delve-report-2.md
+              - "Delve Report #3": delve-reports/725/november-725/delve-report-3.md
+              - "Delve Report #4": delve-reports/725/november-725/delve-report-4.md
+              - "Delve Report #5": delve-reports/725/november-725/delve-report-5.md
+  - "Reports on Vigil":
+      - reports-on-vigil/index.md
+      - "726":
+          - reports-on-vigil/726/index.md
+          - "February 726":
+              - reports-on-vigil/726/february-726/index.md
+              - "Action Report #1": reports-on-vigil/726/february-726/action-report-1.md
+              - "Action Report #2": reports-on-vigil/726/february-726/action-report-2.md
+              - "Action Report #3": reports-on-vigil/726/february-726/action-report-3.md
+              - "Action Report #4": reports-on-vigil/726/february-726/action-report-4.md
+              - "Action Report #5": reports-on-vigil/726/february-726/action-report-5.md
+          - "May 726":
+              - reports-on-vigil/726/may-726/index.md
+              - "Action Report #1": reports-on-vigil/726/may-726/action-report-1.md
+              - "Action Report #2": reports-on-vigil/726/may-726/action-report-2.md
+              - "Action Report #3": reports-on-vigil/726/may-726/action-report-3.md
+              - "Action Report #4": reports-on-vigil/726/may-726/action-report-4.md
+              - "Action Report #5": reports-on-vigil/726/may-726/action-report-5.md
+          - "September 726":
+              - reports-on-vigil/726/september-726/index.md
+              - "Action Report #1": reports-on-vigil/726/september-726/action-report-1.md
+              - "Action Report #2": reports-on-vigil/726/september-726/action-report-2.md
+              - "Action Report #3": reports-on-vigil/726/september-726/action-report-3.md
+              - "Action Report #4": reports-on-vigil/726/september-726/action-report-4.md
+              - "Action Report #5": reports-on-vigil/726/september-726/action-report-5.md
+          - "November 726":
+              - reports-on-vigil/726/november-726/index.md
+              - "Action Report #1": reports-on-vigil/726/november-726/action-report-1.md
+              - "Action Report #2": reports-on-vigil/726/november-726/action-report-2.md
+              - "Action Report #3": reports-on-vigil/726/november-726/action-report-3.md
+              - "Action Report #4": reports-on-vigil/726/november-726/action-report-4.md
+              - "Action Report #5": reports-on-vigil/726/november-726/action-report-5.md
+      - "725":
+          - reports-on-vigil/725/index.md
+          - "February 725":
+              - reports-on-vigil/725/february-725/index.md
+              - "Action Report #1": reports-on-vigil/725/february-725/action-report-1.md
+              - "Action Report #2": reports-on-vigil/725/february-725/action-report-2.md
+              - "Action Report #3": reports-on-vigil/725/february-725/action-report-3.md
+              - "Action Report #4": reports-on-vigil/725/february-725/action-report-4.md
+              - "Action Report #5": reports-on-vigil/725/february-725/action-report-5.md
+          - "May 725":
+              - reports-on-vigil/725/may-725/index.md
+              - "Action Report #1": reports-on-vigil/725/may-725/action-report-1.md
+              - "Action Report #2": reports-on-vigil/725/may-725/action-report-2.md
+              - "Action Report #3": reports-on-vigil/725/may-725/action-report-3.md
+              - "Action Report #4": reports-on-vigil/725/may-725/action-report-4.md
+              - "Action Report #5": reports-on-vigil/725/may-725/action-report-5.md
+          - "September 725":
+              - reports-on-vigil/725/september-725/index.md
+              - "Action Report #1": reports-on-vigil/725/september-725/action-report-1.md
+              - "Action Report #2": reports-on-vigil/725/september-725/action-report-2.md
+              - "Action Report #3": reports-on-vigil/725/september-725/action-report-3.md
+              - "Action Report #4": reports-on-vigil/725/september-725/action-report-4.md
+              - "Action Report #5": reports-on-vigil/725/september-725/action-report-5.md
+          - "November 725":
+              - reports-on-vigil/725/november-725/index.md
+              - "Action Report #1": reports-on-vigil/725/november-725/action-report-1.md
+              - "Action Report #2": reports-on-vigil/725/november-725/action-report-2.md
+              - "Action Report #3": reports-on-vigil/725/november-725/action-report-3.md
+              - "Action Report #4": reports-on-vigil/725/november-725/action-report-4.md
+              - "Action Report #5": reports-on-vigil/725/november-725/action-report-5.md
+      - "724":
+          - reports-on-vigil/724/index.md
+          - "Action Report #1": reports-on-vigil/724/action-report-1.md
+          - "Action Report #2": reports-on-vigil/724/action-report-2.md
+          - "Action Report #3": reports-on-vigil/724/action-report-3.md
+          - "Action Report #4": reports-on-vigil/724/action-report-4.md
+  - "Letters - Recovered, Repaired or Donated":
+      - letters-recovered-repaired-or-donated/index.md
+      - "Letters #1": letters-recovered-repaired-or-donated/letters-1.md
+      - "Letters #2": letters-recovered-repaired-or-donated/letters-2.md
+      - "Letters #3": letters-recovered-repaired-or-donated/letters-3.md
+      - "Letters #4": letters-recovered-repaired-or-donated/letters-4.md
+      - "Philemon & Elreune": letters-recovered-repaired-or-donated/philemon-and-elreune.md
+      - "to & from Elreune": letters-recovered-repaired-or-donated/to-and-from-elreune.md
+      - "to & from Philemon": letters-recovered-repaired-or-donated/to-and-from-philemon.md
+      - "to & from Kisithiel": letters-recovered-repaired-or-donated/to-and-from-kisithiel.md
+      - "to & from Shaviv'Janaki": letters-recovered-repaired-or-donated/to-and-from-shavivjanaki.md
+      - "to & from X": letters-recovered-repaired-or-donated/to-and-from-x.md
+  - "Primary Sources & Documents":
+      - primary-sources-and-documents/index.md
+      - "by Q":
+          - primary-sources-and-documents/by-q/index.md
+          - "Text #1": primary-sources-and-documents/by-q/text-1.md
+          - "Text #2": primary-sources-and-documents/by-q/text-2.md
+          - "Text #3": primary-sources-and-documents/by-q/text-3.md
+      - "by R":
+          - primary-sources-and-documents/by-r/index.md
+          - "Text #1": primary-sources-and-documents/by-r/text-1.md
+          - "Text #2": primary-sources-and-documents/by-r/text-2.md
+          - "Text #3": primary-sources-and-documents/by-r/text-3.md
+      - "by X":
+          - primary-sources-and-documents/by-x/index.md
+          - "Text #1": primary-sources-and-documents/by-x/text-1.md
+          - "Text #2": primary-sources-and-documents/by-x/text-2.md
+          - "Text #3": primary-sources-and-documents/by-x/text-3.md
+      - "Poems":
+          - primary-sources-and-documents/poems/index.md
+          - "Journals #1": primary-sources-and-documents/poems/journals-1.md
+      - "Journals":
+          - primary-sources-and-documents/journals/index.md
+          - "Journals #1": primary-sources-and-documents/journals/journals-1.md
+          - "Journals #2": primary-sources-and-documents/journals/journals-2.md
+          - "Journals #3": primary-sources-and-documents/journals/journals-3.md
+          - "Journals #4": primary-sources-and-documents/journals/journals-4.md
+          - "Journals #5": primary-sources-and-documents/journals/journals-5.md
+      - "Notes":
+          - primary-sources-and-documents/notes/index.md
+          - "Notes #1": primary-sources-and-documents/notes/notes-1.md
+          - "Notes #2": primary-sources-and-documents/notes/notes-2.md
+          - "Notes #3": primary-sources-and-documents/notes/notes-3.md
+          - "Notes #4": primary-sources-and-documents/notes/notes-4.md
+          - "Notes #5": primary-sources-and-documents/notes/notes-5.md
+      - "Ciphers & Encrypted Texts":
+          - primary-sources-and-documents/ciphers-and-encrypted-texts/index.md
+          - "Ciphers": primary-sources-and-documents/ciphers-and-encrypted-texts/ciphers.md
+          - "Encrypted Texts":
+              - primary-sources-and-documents/ciphers-and-encrypted-texts/encrypted-texts/index.md
+              - "Encrypted Text #1": primary-sources-and-documents/ciphers-and-encrypted-texts/encrypted-texts/encrypted-text-1.md
+              - "Encrypted Text #2": primary-sources-and-documents/ciphers-and-encrypted-texts/encrypted-texts/encrypted-text-2.md
+      - "Poems & Literature":
+          - primary-sources-and-documents/poems-and-literature/index.md
+          - "Literature":
+              - primary-sources-and-documents/poems-and-literature/literature/index.md
+              - "Literature #1": primary-sources-and-documents/poems-and-literature/literature/literature-1.md
+              - "Literature #2": primary-sources-and-documents/poems-and-literature/literature/literature-2.md
+          - "Poems":
+              - primary-sources-and-documents/poems-and-literature/poems/index.md
+              - "Poems #1": primary-sources-and-documents/poems-and-literature/poems/poems-1.md
+              - "Poems #2": primary-sources-and-documents/poems-and-literature/poems/poems-2.md
+  - "Religous Texts":
+      - religous-texts/index.md
+      - "Prophecies": religous-texts/prophecies.md
+  - "Partial Texts":
+      - partial-texts/index.md
+      - "Repair Project #1": partial-texts/repair-project-1.md
+      - "Repair Project #2": partial-texts/repair-project-2.md
+      - "Repair Project #3": partial-texts/repair-project-3.md
+      - "Religous Texts":
+          - partial-texts/religous-texts/index.md
+          - "Book of the Righteous": partial-texts/religous-texts/book-of-the-righteous.md
+          - "Words of the Sages": partial-texts/religous-texts/words-of-the-sages.md
+  - "History":
+      - history/index.md
+      - "History #1": history/history-1.md
+      - "History #2": history/history-2.md
+      - "History #3": history/history-3.md
+      - "History #4": history/history-4.md
+      - "History #5": history/history-5.md
+  - "Special Collections":
+      - special-collections/index.md
+      - "On Resurrection & the Spark of Ninshul":
+          - special-collections/on-resurrection-and-the-spark-of-ninshul/index.md
+          - "Text #1": special-collections/on-resurrection-and-the-spark-of-ninshul/text-1.md
+          - "Text #2": special-collections/on-resurrection-and-the-spark-of-ninshul/text-2.md
+          - "Text #3": special-collections/on-resurrection-and-the-spark-of-ninshul/text-3.md
+          - "Text #4": special-collections/on-resurrection-and-the-spark-of-ninshul/text-4.md
+      - "The Bonewash Expedition":
+          - special-collections/the-bonewash-expedition/index.md
+          - "Text #1": special-collections/the-bonewash-expedition/text-1.md
+          - "Text #2": special-collections/the-bonewash-expedition/text-2.md
+          - "Text #3": special-collections/the-bonewash-expedition/text-3.md
+          - "Text #4": special-collections/the-bonewash-expedition/text-4.md
+  - "Interlibrary Requests & Materials":
+      - interlibrary-requests-and-materials/index.md
+      - "Request #1": interlibrary-requests-and-materials/request-1.md
+      - "Request #2": interlibrary-requests-and-materials/request-2.md
+      - "Request #3": interlibrary-requests-and-materials/request-3.md
+      - "Request #4": interlibrary-requests-and-materials/request-4.md
+      - "Request #5": interlibrary-requests-and-materials/request-5.md
+  - "Publications & Personal Works":
+      - publications-and-personal-works/index.md
+      - "Professor Gildor's Journals": publications-and-personal-works/professor-gildors-journals.md
+      - "Work #2": publications-and-personal-works/work-2.md
+      - "Work #3": publications-and-personal-works/work-3.md
+      - "Work #4": publications-and-personal-works/work-4.md
+      - "Work #5": publications-and-personal-works/work-5.md
+  - "Additional References & Documents":
+      - additional-references-and-documents/index.md
+      - "Beastiary":
+          - additional-references-and-documents/beastiary/index.md
+          - "Entry #1": additional-references-and-documents/beastiary/entry-1.md
+          - "Entry #2": additional-references-and-documents/beastiary/entry-2.md
+          - "Entry #3": additional-references-and-documents/beastiary/entry-3.md
+          - "Entry #4": additional-references-and-documents/beastiary/entry-4.md
+          - "Entry #5": additional-references-and-documents/beastiary/entry-5.md
+      - "Astrology":
+          - additional-references-and-documents/astrology/index.md
+          - "Introduction": additional-references-and-documents/astrology/introduction.md
+          - "Completed Astrological Charts": additional-references-and-documents/astrology/completed-astrological-charts.md
+      - "Reference #3": additional-references-and-documents/reference-3.md
+  - "Spells, Patterns & Formulas": spells-patterns-and-formulas.md
+  - "Artifacts":
+      - artifacts/index.md
+      - "The Citadoll": artifacts/the-citadoll.md
+      - "Artifact #2": artifacts/artifact-2.md
+      - "Artfact #3": artifacts/artfact-3.md
+      - "Artifact #4": artifacts/artifact-4.md
+      - "Artifact #5": artifacts/artifact-5.md
+  - "Templates":
+      - templates-section/index.md
+      - "Template #1": templates-section/template-1.md
+      - "Template #2": templates-section/template-2.md
+      - "Template #3": templates-section/template-3.md
+  - "Tags & Labels": tags-labels.md
   - Edit navigation: https://github.com/ihavedna/citadel-wiki/edit/main/mkdocs.yml
