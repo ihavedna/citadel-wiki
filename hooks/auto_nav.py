@@ -1,14 +1,33 @@
 """
-on_config hook: auto-include docs *.md files that aren't already referenced in
-the explicit nav by appending them to the matching section (matched by folder).
+on_config hook: keep the explicit nav in sync with the files on disk.
 
-This lets a brand-new page (e.g. one created with the "New page" button) show
-up in the nav and its section's child list — titled from its H1 — without
-hand-editing mkdocs.yml, and without tripping the strict "not in nav" check.
+* Prune: drop nav entries whose .md file no longer exists (so renaming or
+  deleting a page via GitHub doesn't break the strict build).
+* Add: append any docs *.md not already in nav to its section folder's list
+  (so a brand-new page — e.g. one made with the "New page" button — shows up
+  in the nav and its section's child list, titled from its H1).
+
 New files land at the end of their section; reorder in mkdocs.yml if desired.
 """
 import glob
 import os
+
+
+def _prune(items, docs_dir):
+    """Return items with .md entries whose file is missing removed."""
+    kept = []
+    for it in items:
+        if isinstance(it, str):
+            if it.endswith(".md") and not os.path.exists(os.path.join(docs_dir, it)):
+                continue  # stale reference to a renamed/deleted file
+            kept.append(it)
+        elif isinstance(it, dict):
+            new = {k: (_prune(v, docs_dir) if isinstance(v, list) else v)
+                   for k, v in it.items()}
+            kept.append(new)
+        else:
+            kept.append(it)
+    return kept
 
 
 def on_config(config, **kwargs):
@@ -16,6 +35,9 @@ def on_config(config, **kwargs):
     docs_dir = config["docs_dir"]
     if not nav:
         return config
+
+    nav = _prune(nav, docs_dir)
+    config["nav"] = nav
 
     referenced = set()
     folder_list = {}  # folder path -> the python list its entries live in
