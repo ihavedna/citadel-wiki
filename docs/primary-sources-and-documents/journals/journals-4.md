@@ -1,12 +1,15 @@
 ---
 tags:
-  - Untagged
+  - Dreams
+  - Kyr
+  - Incomplete
+  - No Date/Era Added
 ---
-# Journals #4
+# Dreams - Date Unknown
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1mQvztnnBVxvl1LNCflbe9cxnmlDfD2qxxzvfa2zIa6U/preview"
+          loading="lazy" title="Dreams - Date Unknown"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1mQvztnnBVxvl1LNCflbe9cxnmlDfD2qxxzvfa2zIa6U/edit){target=_blank}
