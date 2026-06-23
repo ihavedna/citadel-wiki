@@ -1,12 +1,29 @@
 ---
 tags:
-  - Untagged
+  - Ora
+  - Kyr-Ora
+  - Ishu-Ora
+  - Raz-Ora
+  - Von-Ora
+  - Mendicant Ora
+  - History
+  - Savran B'Sefjan'Nikos
+  - Chahavat
+  - Nuari
+  - Ovrin
+  - Talrayna
+  - Shanni
+  - Ashra
+  - Yvnnan
+  - Davuel
+  - Zabrin
+  - Arbol
 ---
-# History #2
+# Sages of the Orani
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/14HilrJbJhNsRf610luPlsasgJgFyDUqHXVSuiOSL8hk/preview"
+          loading="lazy" title="Sages of the Orani"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/14HilrJbJhNsRf610luPlsasgJgFyDUqHXVSuiOSL8hk/edit){target=_blank}
