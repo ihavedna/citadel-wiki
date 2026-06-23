@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   The Kallarai Library — "wizard" parchment/ink/gold theme for MkDocs Material
+   The Vigil Field Library — "wizard" parchment/ink/gold theme for MkDocs Material
    Palette adapted from ihavedna.github.io/projects/wizard-style/.
    Typography: EB Garamond (web font, loaded via the Material font config).
    ══════════════════════════════════════════════════════════════ */
@@ -602,7 +602,7 @@ body {
   background-color: var(--vellum);
 }
 
-/* Sidebar titles ("The Kallarai Library" / "Table of contents") get a solid
+/* Sidebar titles ("The Vigil Field Library" / "Table of contents") get a solid
    page-brown background so nav/TOC items scroll BEHIND them, not through. */
 .md-sidebar .md-nav__title {
   position: sticky;

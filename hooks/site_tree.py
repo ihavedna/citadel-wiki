@@ -33,7 +33,7 @@ _NEW_PAGE_TEMPLATE = (
     "[Open in Google Docs ↗](https://docs.google.com/document/d/"
     "1THX9u9UFJ09Yub4h_KHnfrD656B0WKTilUscFMJeUzs/edit){target=_blank}\n"
 )
-_REPO_NEW = "https://github.com/ihavedna/citadel-wiki/new/main/docs"
+_REPO_NEW = "https://github.com/ihavedna/field-library-wiki/new/main/docs"
 
 # Landing pages that should NOT show the "Add new page" button. (Empty — every
 # landing now offers the button / subsection chooser.)
