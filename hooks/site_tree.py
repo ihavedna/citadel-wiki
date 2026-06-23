@@ -40,6 +40,22 @@ _NO_NEW_PAGE = {
     "reports-on-vigil/index.md",
 }
 
+# Individual pages to keep out of the search index (in addition to any page
+# that embeds a child-pages list — see on_page_markdown). These are utility /
+# overview pages, not searchable content.
+_SEARCH_EXCLUDE_URIS = {
+    "recent-changes.md",
+    "about-the-library.md",
+}
+
+
+def _exclude_from_search(page):
+    """Mark a page for search exclusion the same way front matter would
+    (`search: { exclude: true }`); Material's search plugin reads page.meta."""
+    meta = page.meta.setdefault("search", {}) if isinstance(page.meta, dict) else None
+    if isinstance(meta, dict):
+        meta["exclude"] = True
+
 # The embed stubs are basically an iframe (not indexable) plus the
 # "Open in Google Docs ↗" link, so that link text becomes the search-result
 # snippet. Tag the link with data-search-exclude so Material drops it from the
@@ -192,6 +208,14 @@ def _section_for(items, page):
 
 def on_page_markdown(markdown, page, config, files, **kwargs):
     markdown = _exclude_gdoc(markdown)
+    # Keep navigation/index-style pages out of the search index: the listed
+    # utility pages, plus any page that embeds a child-pages list (site-tree or
+    # subtree marker) — those are section landings, not content. Check the
+    # markers here, before they're expanded into link lists below.
+    src = page.file.src_uri if page.file else ""
+    if (src in _SEARCH_EXCLUDE_URIS
+            or SITE_MARKER in markdown or SUB_MARKER in markdown):
+        _exclude_from_search(page)
     if _NAV is None:
         return markdown
     if SITE_MARKER in markdown:
