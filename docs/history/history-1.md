@@ -7,6 +7,7 @@ tags:
   - Savran B'Sefjan'Nikos
   - History
   - Orani
+  - Needs Transcription
 ---
 # Outline of Known Orani History
 
