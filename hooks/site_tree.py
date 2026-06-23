@@ -40,6 +40,20 @@ _NO_NEW_PAGE = {
     "reports-on-vigil/index.md",
 }
 
+# The embed stubs are basically an iframe (not indexable) plus the
+# "Open in Google Docs ↗" link, so that link text becomes the search-result
+# snippet. Tag the link with data-search-exclude so Material drops it from the
+# search index — keeping the link visible on the page but out of the dropdown.
+_GDOC_LINK = re.compile(r"(\[Open in Google Docs ↗\]\([^)]+\))(\{[^}]*\})?")
+
+
+def _exclude_gdoc(markdown):
+    def repl(m):
+        link, attrs = m.group(1), m.group(2)
+        inner = (attrs[1:-1].strip() + " ") if attrs else ""
+        return f'{link}{{{inner}data-search-exclude="true"}}'
+    return _GDOC_LINK.sub(repl, markdown)
+
 
 def _new_page_button(page):
     folder = os.path.dirname(page.file.src_uri)
@@ -177,6 +191,7 @@ def _section_for(items, page):
 
 
 def on_page_markdown(markdown, page, config, files, **kwargs):
+    markdown = _exclude_gdoc(markdown)
     if _NAV is None:
         return markdown
     if SITE_MARKER in markdown:
