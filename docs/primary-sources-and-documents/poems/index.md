@@ -1,8 +1,0 @@
----
-tags:
-  - Untagged
----
-
-# Poems
-
-<!-- subtree -->
