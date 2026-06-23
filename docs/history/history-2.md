@@ -18,6 +18,7 @@ tags:
   - Davuel
   - Zabrin
   - Arbol
+  - Needs Transcription
 ---
 # Sages of the Orani
 
