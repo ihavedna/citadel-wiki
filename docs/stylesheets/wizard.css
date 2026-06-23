@@ -164,6 +164,7 @@ body {
   font-variant: small-caps;
   color: var(--vermillion);
   letter-spacing: 0.03em;
+  line-height: 0.95;
   margin-bottom: 0.3em;
   text-shadow: 0 1px 0 rgba(255,245,210,0.4);
 }
