@@ -8,6 +8,7 @@ tags:
   - Dawa Nor
   - November 724
   - Vigil/Kallarai
+  - Needs Transcription
 ---
 # Scouting Reports - November 724
 
