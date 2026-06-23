@@ -3,6 +3,6 @@ tags:
   - Untagged
 ---
 
-# Ciphers & Encrypted Texts
+# Ciphers & Encrypted Documents
 
 <!-- subtree -->
