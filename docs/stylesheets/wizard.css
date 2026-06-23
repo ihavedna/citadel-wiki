@@ -164,6 +164,8 @@ body {
   margin-bottom: 0.3em;
   text-shadow: 0 1px 0 rgba(255,245,210,0.4);
 }
+/* Keep permalink ¶ anchors on H2–H6, but not on the page title (H1). */
+.md-typeset h1 .headerlink { display: none; }
 .md-typeset h2 {
   font-family: var(--font-heading);
   font-weight: 600;

@@ -51,9 +51,9 @@ markdown_extensions:
   - footnotes
   - tables
   - toc:
-      # No visible ¶ permalink anchors on headings (ids are still generated for
-      # the table of contents and deep links).
-      permalink: false
+      # Permalink ¶ anchors on headings, except the page title (H1) — that one
+      # is hidden via wizard.css (.md-typeset h1 .headerlink).
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.superfences
