@@ -6,8 +6,8 @@ tags:
 # Ledger & Note from the Scribe’s Guild in Kallarai/Vigil - Onslaught Era
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
+  <iframe src="https://docs.google.com/document/d/144SHRao0zobR6SRDiynUYcNejw4b3qlyascXWImLLBg/preview"
           loading="lazy" title="Ledger & Note from the Scribe’s Guild in Kallarai/Vigil - Onslaught Era"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/144SHRao0zobR6SRDiynUYcNejw4b3qlyascXWImLLBg//edit){target=_blank}
