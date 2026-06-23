@@ -670,7 +670,7 @@ body {
 
 /* ── Search ───────────────────────────────────────────────────── */
 .md-search__form {
-  background: var(--vellum);
+  background: var(--parchment);
   color: var(--ink);
 }
 .md-search__input::placeholder { color: var(--ink-dim); }
