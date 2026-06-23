@@ -668,6 +668,8 @@ body {
    (the docked desktop sidebars stay fully transparent). */
 @media screen and (max-width: 76.1875em) {
   .md-sidebar--primary.md-sidebar .md-nav--primary,
+  .md-sidebar--primary.md-sidebar .md-nav--primary .md-nav,
+  .md-sidebar--primary.md-sidebar .md-nav--primary .md-nav__list,
   .md-sidebar--primary.md-sidebar .md-nav--primary .md-nav__title {
     background-color: var(--wood-dark) !important;
   }
