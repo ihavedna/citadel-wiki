@@ -135,6 +135,9 @@ body {
 @media screen and (max-width: 60em) {
   .md-header__extlink span { display: none; }  /* icon only on small screens */
 }
+/* Leading "The" of the site title, rendered 4pt smaller (wrapped by
+   title-style.js). */
+.md-header__title .title-the { font-size: calc(1em - 4pt); }
 
 .md-header {
   background: var(--leather);
@@ -341,12 +344,15 @@ body {
 
 /* ── "New page" button + subsection chooser (top of landing pages) ─── */
 .md-typeset .new-entry-btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   margin: 0;
   padding: 0.14em 0.75em;
   background: var(--vellum);
   color: var(--leather);
-  border: 1px solid var(--rule-gold);
+  border: 1px solid var(--parchment-dark);
   border-radius: 999px;
   font-family: var(--font-heading);
   font-variant: small-caps;
