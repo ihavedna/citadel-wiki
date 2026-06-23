@@ -35,12 +35,9 @@ _NEW_PAGE_TEMPLATE = (
 )
 _REPO_NEW = "https://github.com/ihavedna/citadel-wiki/new/main/docs"
 
-# Landing pages that should NOT show the "+ New page" button (grouping sections
-# where entries live in sub-folders, not directly here).
-_NO_NEW_PAGE = {
-    "delve-reports/index.md",
-    "reports-on-vigil/index.md",
-}
+# Landing pages that should NOT show the "Add new page" button. (Empty — every
+# landing now offers the button / subsection chooser.)
+_NO_NEW_PAGE = set()
 
 # Individual pages to keep out of the search index (in addition to any page
 # that embeds a child-pages list — see on_page_markdown). These are utility /
