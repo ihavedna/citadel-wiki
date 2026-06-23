@@ -1,6 +1,6 @@
 ---
 tags:
-  - Untagged
+  - Spells, Patterns & Formulas
 ---
 # Spells, Patterns & Formulas
 
