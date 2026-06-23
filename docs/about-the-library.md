@@ -5,8 +5,8 @@ tags:
 # About the Library
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1ex7r7IvmJvLCOOHRjswyO-0B9fLUxzTptwvKaxY0WRM/preview"
+  <iframe src="https://docs.google.com/document/d/1_Wnd-Jpyii0oHYG9_5R2ypLQoBRy8FdsUDXWlPtlPH8/preview"
           loading="lazy" title="About the Library"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1ex7r7IvmJvLCOOHRjswyO-0B9fLUxzTptwvKaxY0WRM/edit){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1_Wnd-Jpyii0oHYG9_5R2ypLQoBRy8FdsUDXWlPtlPH8/edit){target=_blank}
