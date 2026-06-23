@@ -166,6 +166,20 @@ body {
 }
 /* Keep permalink ¶ anchors on H2–H6, but not on the page title (H1). */
 .md-typeset h1 .headerlink { display: none; }
+
+/* ── Breadcrumbs (navigation.path) above the page title ───────── */
+.md-path {
+  font-family: var(--font-heading);
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-size: 0.72rem;
+  color: var(--ink-dim);
+  margin: 0 0 0.5em;
+}
+.md-path__link { color: var(--ink-dim); }
+.md-path__link:hover,
+.md-path__link:focus { color: var(--azurite); }
+
 .md-typeset h2 {
   font-family: var(--font-heading);
   font-weight: 600;
