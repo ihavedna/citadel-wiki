@@ -273,6 +273,25 @@ body {
 .md-search-result .md-typeset h1 {
   font-weight: 500;
 }
+/* Headings carry decorative gold rules on the page (`h1::after` divider,
+   `h2`/`h3` border-bottom); suppress them in the dropdown so no result —
+   top-level title or nested section — shows a divider line. */
+.md-search-result .md-typeset h1::after {
+  display: none;
+}
+.md-search-result .md-typeset h2,
+.md-search-result .md-typeset h3 {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+/* On pages, the tag block has a gold separator rule + large gap above it
+   (`.md-typeset .md-tags`). In results the tags sit right under the title, so
+   that top border looks like a divider line — drop it and tighten the gap. */
+.md-search-result .md-typeset .md-tags {
+  border-top: none;
+  margin-top: 0.5em;
+  padding-top: 0;
+}
 /* The result article carries .md-typeset and wraps tags in .md-tags, so use a
    higher-specificity selector to beat `.md-typeset .md-tags .md-tag` (0.7rem)
    regardless of source order. */
