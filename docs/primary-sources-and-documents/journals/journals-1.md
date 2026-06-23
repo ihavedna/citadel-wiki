@@ -6,6 +6,7 @@ tags:
   - Apphia B’Kahsithiel
   - Hallel B’Xalvoth
   - November 724
+  - Needs Transcription
 ---
 # Nysoris's Journal & Deciphered Reports - October 724
 
