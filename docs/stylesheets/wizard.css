@@ -385,10 +385,10 @@ body {
 /* Tighten the gap between the title and the button (both margins collapse,
    so trim the H1's bottom margin too). */
 .md-typeset h1:has(+ p .new-entry-btn),
-.md-typeset h1:has(+ .new-entry) { margin-bottom: 0.05em; }
+.md-typeset h1:has(+ .new-entry) { margin-bottom: 0; }
 .md-typeset h1:has(+ p .new-entry-btn) + p,
 .md-typeset h1:has(+ .new-entry) + .new-entry {
-  margin-top: 0.05em;
+  margin-top: -0.25em;
   padding-bottom: 0.6em;
   margin-bottom: 0.6em;
   border-bottom: 2px solid var(--rule-gold);
