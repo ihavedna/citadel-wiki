@@ -1,12 +1,18 @@
 ---
 tags:
-  - Untagged
+  - Early Gloaming Era
+  - Gloaming Era
+  - Journal
+  - Incomplete
+  - Vonor
+  - Badlands
+  - Vampire
 ---
-# Journals #3
+# Journal Entries from the Swamps beyond Vonor - 495 GE
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1BUytfWieNDXyI21oXNxIp8N3iJl2MI4-KdAL3o7mzwA/preview"
+          loading="lazy" title="Journal Entries from the Swamps beyond Vonor - 495 GE"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1BUytfWieNDXyI21oXNxIp8N3iJl2MI4-KdAL3o7mzwA/edit){target=_blank}
