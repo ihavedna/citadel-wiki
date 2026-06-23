@@ -4,6 +4,8 @@ tags:
   - Halcyon/Conquest Era
   - Onslaught Era
   - Gloaming Era
+  - Early Gloaming Era
+  - Modern Gloaming Era
   - Savran B'Sefjan'Nikos
   - History
   - Orani
