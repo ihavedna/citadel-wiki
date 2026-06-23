@@ -1,0 +1,34 @@
+{#-
+  Overridden from Material's default. A breadcrumb level links to its section's
+  own landing page (index.md) when it has one; page-less sections (groups) are
+  shown as plain text instead of Material's default of linking down to the
+  first descendant page — which could point back to the current page.
+-#}
+{% macro render_content(nav_item) %}
+  <span class="md-ellipsis">
+    {{ nav_item.title }}
+  </span>
+{% endmacro %}
+{% macro render(nav_item) %}
+  {% set ns = namespace(url="") %}
+  {% if nav_item.is_page %}
+    {% set ns.url = nav_item.url %}
+  {% elif nav_item.is_section %}
+    {% for child in nav_item.children %}
+      {% if child.is_page and child.file and child.file.name == "index" %}
+        {% set ns.url = child.url %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <li class="md-path__item">
+    {% if ns.url %}
+      <a href="{{ ns.url | url }}" class="md-path__link">
+        {{ render_content(nav_item) }}
+      </a>
+    {% else %}
+      <span class="md-path__link md-path__link--static">
+        {{ render_content(nav_item) }}
+      </span>
+    {% endif %}
+  </li>
+{% endmacro %}
