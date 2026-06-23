@@ -28,7 +28,15 @@
     if (!item) return;
 
     var toggle = item.querySelector(":scope > input.md-nav__toggle");
-    if (toggle && !toggle.checked) toggle.checked = true;
+    if (toggle && !toggle.checked) {
+      // Apply the default-expanded state without animating: disable
+      // transitions, flip the toggle, force a reflow so the expanded layout
+      // lands instantly, then restore transitions for later user interaction.
+      item.classList.add("md-nav__item--no-anim");
+      toggle.checked = true;
+      void item.offsetHeight;
+      item.classList.remove("md-nav__item--no-anim");
+    }
   }
 
   if (window.document$ && typeof window.document$.subscribe === "function") {

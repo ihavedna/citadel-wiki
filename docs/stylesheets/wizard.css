@@ -167,6 +167,14 @@ body {
 /* Keep permalink ¶ anchors on H2–H6, but not on the page title (H1). */
 .md-typeset h1 .headerlink { display: none; }
 
+/* While expand-nav.js applies the default-expanded state on load, transitions
+   are suppressed on that section so it appears already open (no animation);
+   manual toggles elsewhere still animate. */
+.md-nav__item--no-anim,
+.md-nav__item--no-anim * {
+  transition: none !important;
+}
+
 /* ── Breadcrumbs (navigation.path) above the page title ───────── */
 /* The breadcrumb nav is a sibling sitting above the padded article, so give it
    the article's horizontal padding to line up with the title, and pull the
