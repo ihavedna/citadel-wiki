@@ -46,6 +46,7 @@ _NO_NEW_PAGE = {
 _SEARCH_EXCLUDE_URIS = {
     "recent-changes.md",
     "about-the-library.md",
+    "tags-labels.md",
 }
 
 
