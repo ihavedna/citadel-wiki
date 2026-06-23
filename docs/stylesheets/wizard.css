@@ -426,13 +426,15 @@ body {
    button) or under the chooser wrapper (subsection popover). */
 .md-typeset h1:has(+ p .new-entry-btn)::after,
 .md-typeset h1:has(+ .new-entry)::after { content: none; }
-/* Tighten the gap between the title and the button (both margins collapse,
-   so trim the H1's bottom margin too). */
+/* 3pt of space between the title and the button (both margins collapse, so
+   keep the H1's bottom margin at 0 and set the gap on the button). */
 .md-typeset h1:has(+ p .new-entry-btn),
 .md-typeset h1:has(+ .new-entry) { margin-bottom: 0; }
 .md-typeset h1:has(+ p .new-entry-btn) + p,
 .md-typeset h1:has(+ .new-entry) + .new-entry {
-  margin-top: -0.25em;
+  display: flex;            /* no line-box leading above the button */
+  flex-wrap: wrap;
+  margin-top: 3pt;
   padding-bottom: 0.6em;
   margin-bottom: 0.6em;
   border-bottom: 2px solid var(--rule-gold);
