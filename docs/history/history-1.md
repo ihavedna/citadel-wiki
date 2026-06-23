@@ -1,6 +1,12 @@
 ---
 tags:
-  - Untagged
+  - Ancient Era
+  - Halcyon/Conquest Era
+  - Onslaught Era
+  - Gloaming Era
+  - Savran B'Sefjan'Nikos
+  - History
+  - Orani
 ---
 # Outline of Known Orani History
 
