@@ -3,6 +3,6 @@ tags:
 
 ---
 
-# Ceremonial Magic
+# Rituals & Ceremonial Magic
 
 <!-- subtree -->
