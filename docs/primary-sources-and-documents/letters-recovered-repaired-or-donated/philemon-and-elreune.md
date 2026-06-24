@@ -7,6 +7,7 @@ tags:
   - Arkinay
   - Ainkainia
   - Shaviv-Janaki
+  - Terebinth
   - the Unmaker
   - Seraphim
   - Nephilim
