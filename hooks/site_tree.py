@@ -297,6 +297,12 @@ def _section_for(items, page):
 
 def on_page_markdown(markdown, page, config, files, **kwargs):
     markdown = _exclude_gdoc(markdown)
+    # Render each page's tag pills alphabetically (case-insensitive), regardless
+    # of the order they're listed in the front matter.
+    if isinstance(page.meta, dict):
+        tags = page.meta.get("tags")
+        if isinstance(tags, list):
+            page.meta["tags"] = sorted(tags, key=lambda t: str(t).casefold())
     # Keep navigation/index-style pages out of the search index: the listed
     # utility pages, plus any page that embeds a child-pages list (site-tree or
     # subtree marker) — those are section landings, not content. Check the
