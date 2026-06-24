@@ -1,12 +1,16 @@
 ---
 tags:
-  - Untagged
+  - Kavinue
+  - Elreune b’Vecaricaz
+  - Ura Hinusang
+  - Gograzhi
+  - November 724
 ---
-# to & from Elreune
+# Correspondence between Kavinue, Elreune b’Vecaricaz, & Ura Hinusang - November 724
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview"
-          loading="lazy" title="Citadel Field Library Transcriptions"></iframe>
+  <iframe src="https://docs.google.com/document/d/1vH7oIvhvt0yxvRCsAfuMVVDKJsZxD2nwkTb-lEU9yR0/preview"
+          loading="lazy" title="Correspondence between Kavinue, Elreune b’Vecaricaz, & Ura Hinusang - November 724"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1aiY9f2HM-02mXnasioowZZki9z0Ce4GV1IvVnlJlIHg/preview){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1vH7oIvhvt0yxvRCsAfuMVVDKJsZxD2nwkTb-lEU9yR0/edit){target=_blank}
