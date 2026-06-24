@@ -1,14 +1,12 @@
 ---
 tags:
-  - Untagged
-  - Needs Transcription
-  - No Date/Era Added
+  - Miscellaneous
 ---
-# Miscellaneous Texts #1
+# Job Board Postings
 
 <div class="embed">
-  <iframe src="https://docs.google.com/document/d/1THX9u9UFJ09Yub4h_KHnfrD656B0WKTilUscFMJeUzs/preview"
-          loading="lazy" title="Miscellaneous Texts #1"></iframe>
+  <iframe src="https://docs.google.com/document/d/1iqDJTCAVgRrUuJnSSkdQHVUjmaMX-kDWN5VOi5xtg1I/preview"
+          loading="lazy" title="Job Board Postings"></iframe>
 </div>
 
-[Open in Google Docs ↗](https://docs.google.com/document/d/1THX9u9UFJ09Yub4h_KHnfrD656B0WKTilUscFMJeUzs/edit){target=_blank}
+[Open in Google Docs ↗](https://docs.google.com/document/d/1iqDJTCAVgRrUuJnSSkdQHVUjmaMX-kDWN5VOi5xtg1I/edit){target=_blank}
