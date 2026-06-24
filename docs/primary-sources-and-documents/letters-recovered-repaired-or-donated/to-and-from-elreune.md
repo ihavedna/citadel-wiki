@@ -5,6 +5,7 @@ tags:
   - Ura Hinusang
   - Gograzhi
   - November 724
+  - Incomplete
 ---
 # Correspondence between Kavinue, Elreune b’Vecaricaz, & Ura Hinusang - November 724
 
