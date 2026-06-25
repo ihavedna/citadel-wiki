@@ -3,6 +3,6 @@ tags:
  
 ---
 
-# Letters
+# Letters & Notes
 
 <!-- subtree -->
